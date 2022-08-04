@@ -1,3 +1,4 @@
+//The first two functions below were given out by Codecademy for the project
 // Returns a random DNA base
 const returnRandBase = () => {
   const dnaBases = ['A', 'T', 'C', 'G'];
@@ -13,6 +14,7 @@ const mockUpStrand = () => {
   return newStrand;
 };
 
+//All code below this point is my work to complete the project
 const pAequorFactory = (orgNum, dnaStrand) => {
   return {
     specimenNum: orgNum,
